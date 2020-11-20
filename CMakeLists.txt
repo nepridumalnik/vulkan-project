@@ -7,7 +7,7 @@ set(CMAKE_CXX_STANDARD 17)
 include_directories(${CMAKE_SOURCE_DIR}/include)
 
 # Compiling GLFW3 from sources
-add_subdirectory(${CMAKE_SOURCE_DIR}/src/GLFW)
+add_subdirectory(src/GLFW)
 
 # Adding Vulkan dependencies if Vulkan was found else do nothing
 find_package(Vulkan REQUIRED)
